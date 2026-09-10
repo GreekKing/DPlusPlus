@@ -1,0 +1,15 @@
+# Compiler build files
+compiler/dpp.exe
+compiler/*.o
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

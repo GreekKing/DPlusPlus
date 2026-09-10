@@ -1,0 +1,11 @@
+alive = true
+
+if alive {
+    print("Player is alive")
+}
+
+finished = false
+
+if finished == false {
+    print("Still working")
+}
