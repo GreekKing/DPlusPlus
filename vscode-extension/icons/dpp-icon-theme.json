@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "_dpp": {
+      "iconPath": "./dpp-file.png"
+    }
+  },
+  "fileExtensions": {
+    "dpp": "_dpp"
+  }
+}
