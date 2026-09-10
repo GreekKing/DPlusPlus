@@ -34,6 +34,13 @@
         "scopeName": "source.dplusplus",
         "path": "./syntaxes/dpp.tmLanguage.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "dplusplus-icons",
+        "label": "D++ Icons",
+        "path": "./icons/dpp-icon-theme.json"
+      }
     ]
   }
 }
