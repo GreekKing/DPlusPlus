@@ -1,0 +1,39 @@
+{
+  "name": "dplusplus",
+  "displayName": "D++",
+  "description": "VS Code support for the D++ programming language.",
+  "version": "0.1.0",
+  "publisher": "GreekKing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GreekKing/DPlusPlus.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "dplusplus",
+        "aliases": [
+          "D++",
+          "d++"
+        ],
+        "extensions": [
+          ".dpp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dplusplus",
+        "scopeName": "source.dplusplus",
+        "path": "./syntaxes/dpp.tmLanguage.json"
+      }
+    ]
+  }
+}
